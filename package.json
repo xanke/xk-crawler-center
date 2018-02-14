@@ -1,10 +1,11 @@
 {
-  "name": "example",
-  "version": "1.0.0",
+  "name": "xk-crawler-center",
+  "version": "0.0.1",
   "description": "",
   "private": true,
   "dependencies": {
     "egg": "^2.2.1",
+    "egg-mongoose": "^2.1.1",
     "egg-scripts": "^2.5.0"
   },
   "devDependencies": {
