@@ -6,6 +6,8 @@ module.exports = app => {
     name: { type: String },
     from: { type: String },
     disabled: { type: Boolean },
+    scanList: { type: Array },
+    scan_at: { type: Number },
     update_at: { type: Number },
     create_at: { type: Number }
   })

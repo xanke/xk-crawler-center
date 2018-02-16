@@ -9,7 +9,6 @@ class ClientService extends Service {
     //     upsert: true
     //   }
     // ).exec()
-    console.log(this.ctx.model.Client)
     await this.ctx.model.Client.create(data)
   }
 }

@@ -3,10 +3,9 @@ const Controller = require('egg').Controller
 class clientController extends Controller {
   async login() {
     const { ctx, service } = this
-    let data = {
-      name: 'ok',
-      clientid:'23'
-    }
+    let data = ctx.request.body
+    console.log(data)
+
     await service.client.login(data)
     ctx.body = data
   }
