@@ -11,6 +11,19 @@ class ClientService extends Service {
     // ).exec()
     await this.ctx.model.Client.create(data)
   }
+
+  async create(data) {
+    await this.ctx.model.Client.create(data)
+  }
+
+  async edit(data) {
+    await this.ctx.model.Client.update(data)
+  }
+
+  async delete(data) {
+    await this.ctx.model.Client.delete(data)
+  }
+
 }
 
 module.exports = ClientService

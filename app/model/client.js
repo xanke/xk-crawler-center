@@ -2,7 +2,7 @@ module.exports = app => {
   const mongoose = app.mongoose
 
   const ClientSchema = new mongoose.Schema({
-    cid: { type: String, unique: true },
+    // cid: { type: String, unique: true },
     hid: { type: String },
     name: { type: String },
     keep_at: { type: Number },

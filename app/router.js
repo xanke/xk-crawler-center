@@ -11,4 +11,8 @@ module.exports = app => {
 
   router.get('/proxy/list', controller.proxy.list)
   router.get('/proxy/scan', controller.proxy.scan)
+
+  router.post('/client', controller.client.create)
+  router.put('/client', controller.client.edit)
+  router.delete('/client', controller.client.delete)
 }
